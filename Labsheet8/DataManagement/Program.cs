@@ -23,8 +23,8 @@ namespace DataManagement
                 Player p3 = new Player() { PlayerID = 1, Name = "Tom", Position = "GoalKeeper", TeamID = 2, team = t2 };
                 Player p4 = new Player() { PlayerID = 2, Name = "Harry", Position = "Defender", TeamID = 2, team = t2 };
 
-                db.teams.Add(t1);
-                db.teams.Add(t2);
+                db.Teams.Add(t1);
+                db.Teams.Add(t2);
 
                 Console.WriteLine("Added Teams to database ");
 
